@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: silver
+    database: workspace
+    catalog: workspace
+    schema: ecommerce
+    tables: 
+      - name: silver_orders
+      - name: silver_customers
+      - name: silver_order_item
+      - name: silver_products
